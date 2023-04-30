@@ -1,0 +1,20 @@
+body{
+    background-image: url("assets/drift.jpg");
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+h1{
+    font-size:3em;
+    color: black;
+    margin-bottom: 100px;
+}
+.carros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

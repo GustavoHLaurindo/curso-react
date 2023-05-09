@@ -1,0 +1,35 @@
+.root{/*root IMPORTANTE !!*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #5E66F2, #667BF2,#7292F2,#77ABD9
+    ,#8BD9D9);
+  
+  }
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.small{
+    font-size: 2em;
+    display: flex;
+    align-self: self-start;
+}
+.big{
+    font-size: 8em;
+}
+.title{
+    color: white;
+}
+
+button:hover{
+    box-shadow: 3px 3px 15px 2px rgba(0, 0, 0, 0.322);
+}
+@media screen and (min-width:768px) {
+    .big{
+        font-size: 10em;
+}
+}
